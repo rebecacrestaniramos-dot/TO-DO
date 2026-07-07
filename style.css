@@ -31,7 +31,7 @@ input{
     color: rebeccapurple;
     display: block;
 }
-.input-placeholder{
+.input::placeholder{
     color: rebeccapurple;
 }
 .input:focus{
