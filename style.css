@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ID:wght@100..400&display=swap');
+body{
+    background-color: paleturquoise;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    color: rebeccapurple;
+    font-size: x;
+    text-align: center;
+    opacity: 0.4;
+}
+form{
+    width: 400px;
+    max-width: 100%;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+input{
+    width:100%;
+    border:none;
+    padding:1rem 2rem;
+    font-size: medium;
+    color: rebeccapurple;
+    display: block;
+}
+.input-placeholder{
+    color: rebeccapurple;
+}
+.input:focus{
+    outline-color: rebeccapurple;
+}
+.todos{
+    background-color: rebeccapurple;
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+.todos li{
+    border: rebeccapurple;
+    padding:1rem 2rem;
+    font-size:1.5rem;
+    cursor: pointer;
+}
+.todos li.completed{
+    color: aqua;
+    text-decoration: double;
+}
+small{
+    color: rebeccapurple;
+    margin-top:3rem;
+    text-align: center;
+}
